@@ -1,0 +1,33 @@
+.experience-screen {
+  /* height: 100vh; */
+  background-color: #1a2952;
+}
+
+.experience-text {
+  font-size: 50px;
+  color: white;
+}
+
+.card-image {
+  width: 150px;
+  height: 150px;
+}
+
+.company {
+  font-size: 30px;
+  color: #002266;
+}
+
+.position {
+  font-size: 20px;
+}
+
+.date {
+  font-size: 15px;
+  opacity: 0.7;
+}
+
+.description {
+  font-size: 15px;
+  opacity: 0.7;
+}

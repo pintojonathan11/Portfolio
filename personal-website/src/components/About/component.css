@@ -1,0 +1,52 @@
+.about-screen {
+  /* height: 100vh; */
+  background-color: white;
+}
+
+.row-config {
+  margin: 20px;
+}
+
+.about-me-heading {
+  /* font-family: "Comic Sans MS", cursive, sans-serif; */
+  font-size: 10vh;
+  color: #002266;
+  font-weight: bold;
+  font-family: "Book Antiqua";
+}
+.about-me-text {
+  /* font-family: "Comic Sans MS", cursive, sans-serif; */
+  font-size: 3vh;
+}
+
+.zoom {
+  transition: transform 0.2s; /* Animation */
+  margin: 0 auto;
+}
+
+.my-info {
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.red {
+  background-color: crimson;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.green {
+  background-color: green;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.zoom:hover {
+  transform: scale(1.15);
+}
