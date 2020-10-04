@@ -31,3 +31,26 @@
   font-size: 15px;
   opacity: 0.7;
 }
+
+.title {
+  font-size: 30px;
+}
+
+.card-text-title {
+  color: #002266;
+}
+
+.card-text-description-title {
+  font-weight: bold;
+}
+
+.rotate {
+  transform: rotate(180deg);
+  transform-origin: center center;
+  margin-bottom: 7px;
+}
+
+.rotate-back {
+  transform: rotate(0deg);
+  transform-origin: center center;
+}
