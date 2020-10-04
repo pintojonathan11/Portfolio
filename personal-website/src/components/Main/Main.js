@@ -1,16 +1,16 @@
 import React from "react";
-import "./component.css";
+import "./Main.css";
 import { Container, Row, Col } from "react-bootstrap";
-import CobwebAnimation from "./CobwebAnimation";
+import ParticleAnimation from "./ParticleAnimation";
 import Image from "react-bootstrap/Image";
 import { Link } from "react-scroll";
 
-function Header() {
+function Main() {
   return (
     <div id="main">
       <div>
         <div id="large-header" className="large-header">
-          <CobwebAnimation numberOfParticles="100"></CobwebAnimation>
+          <ParticleAnimation numberOfParticles="100"></ParticleAnimation>
           <Container fluid className="contact-logos-row">
             <Row>
               <Col>
@@ -79,4 +79,4 @@ function Header() {
   );
 }
 
-export default Header;
+export default Main;

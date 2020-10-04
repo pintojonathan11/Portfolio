@@ -1,5 +1,5 @@
 import React from "react";
-import "./component.css";
+import "./Experience.css";
 import { Container, Row, Col } from "react-bootstrap";
 import SpecificExperience from "./SpecificExperience";
 

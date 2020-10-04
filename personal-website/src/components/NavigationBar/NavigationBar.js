@@ -12,7 +12,7 @@ import {
 } from "mdbreact";
 import { BrowserRouter as Router } from "react-router-dom";
 
-import "./component.css";
+import "./NavigationBar.css";
 
 function NavigationBar() {
   return (
