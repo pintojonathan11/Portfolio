@@ -45,7 +45,7 @@ function ParticleAnimation(props) {
             },
             modes: {
               bubble: {
-                distance: 200,
+                distance: 100,
                 duration: 2,
                 size: 0,
                 opacity: 0

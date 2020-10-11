@@ -1,0 +1,169 @@
+.main {
+  overflow: scroll;
+  overflow: -moz-scrollbars-vertical;
+}
+
+.animated-background {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: #020529;
+  /* overflow: scroll; */
+  /* z-index: 1; */
+}
+
+.container-background {
+  position: absolute;
+  background: white;
+  margin-right: 10px;
+  text-align: center;
+  top: 10%;
+  left: 10%;
+  right: 10%;
+  bottom: 10%;
+}
+
+.contact-logos-row {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  top: 20%;
+  /* display:inline-block; */
+}
+
+.img-style {
+  width: 40px;
+  height: 40px;
+}
+
+.react-bootstrap-table {
+  display: block;
+  width: 100%;
+  overflow-x: auto;
+  overflow-y: scroll;
+  -webkit-overflow-scrolling: touch;
+}
+.react-bootstrap-table table {
+  table-layout: auto !important;
+}
+
+.img-col {
+  width: 10px;
+}
+
+.table th,
+.table td {
+  white-space: nowrap;
+}
+
+.table > tbody > tr > td {
+  vertical-align: middle;
+}
+
+.table-body {
+  height: 60vh !important;
+  overflow: -moz-scrollbars-vertical;
+  overflow-y: scroll;
+}
+
+.table-header {
+  font-weight: bold;
+  font-size: 25px;
+  color: #1a2952;
+}
+
+.table-item {
+  font-size: 19px;
+}
+
+.transparent-background {
+  opacity: 0.85;
+}
+
+.skill-head-title {
+  color: #1a2952;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+/* Extra Extra Small */
+@media only screen and (max-width: 324px) {
+  .table-header {
+    font-size: 14px;
+  }
+
+  .table-item {
+    font-size: 12px;
+  }
+}
+
+/* Extra Small */
+@media (min-width: 325px) and (max-width: 768px) {
+  .table-header {
+    font-size: 16px;
+  }
+
+  .table-item {
+    font-size: 14px;
+  }
+}
+
+/* Small */
+@media (min-width: 768px) and (max-width: 991px) {
+  .table-header {
+    font-size: 19px;
+  }
+
+  .table-item {
+    font-size: 16px;
+  }
+}
+
+/* Medium */
+@media (min-width: 992px) and (max-width: 1199px) {
+  .table-header {
+    font-size: 21px;
+  }
+
+  .table-item {
+    font-size: 19px;
+  }
+}
+
+/* Large */
+@media screen and (min-width: 1200px) {
+  .table-header {
+    font-size: 24px;
+  }
+
+  .table-item {
+    font-size: 22px;
+  }
+}
+
+.frame {
+  overflow-y: auto;
+  /* border: 1px solid black; */
+  /* height: 3em; */
+  /* width: 10em; */
+  line-height: 1em;
+}
+
+.frame::-webkit-scrollbar {
+  -webkit-appearance: none;
+}
+
+.frame::-webkit-scrollbar:vertical {
+  width: 11px;
+}
+
+.frame::-webkit-scrollbar:horizontal {
+  height: 11px;
+}
+
+.frame::-webkit-scrollbar-thumb {
+  border-radius: 8px;
+  border: 2px solid white; /* should match background, can't be transparent */
+  background-color: #1a2952;
+}

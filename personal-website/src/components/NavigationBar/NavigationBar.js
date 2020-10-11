@@ -52,7 +52,7 @@ function NavigationBar() {
                     spy={true}
                     smooth={true}
                     offset={-60}
-                    duration={500}
+                    duration={1000}
                   >
                     About
                   </Link>
@@ -70,9 +70,28 @@ function NavigationBar() {
                     spy={true}
                     smooth={true}
                     offset={-20}
-                    duration={500}
+                    duration={1000}
                   >
                     Experiences
+                  </Link>
+                </MDBNavLink>
+              </MDBNavItem>
+
+              <MDBNavItem>
+                <MDBNavLink
+                  className="waves-effect waves-light text-info"
+                  to=""
+                >
+                  <MDBIcon icon="code" className="mr-1" />
+                  <Link
+                    activeClass=""
+                    to="skills"
+                    spy={true}
+                    smooth={true}
+                    // offset={0}
+                    duration={1000}
+                  >
+                    Skills
                   </Link>
                 </MDBNavLink>
               </MDBNavItem>
@@ -83,15 +102,6 @@ function NavigationBar() {
                 >
                   <MDBIcon icon="desktop" className="mr-1" />
                   Projects
-                </MDBNavLink>
-              </MDBNavItem>
-              <MDBNavItem>
-                <MDBNavLink
-                  className="waves-effect waves-light text-info"
-                  to=""
-                >
-                  <MDBIcon icon="code" className="mr-1" />
-                  Skills
                 </MDBNavLink>
               </MDBNavItem>
             </MDBNavbarNav>
