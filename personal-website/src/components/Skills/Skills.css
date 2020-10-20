@@ -1,36 +1,43 @@
+*,
+*:after,
+*:before {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
 .main {
   overflow: scroll;
-  overflow: -moz-scrollbars-vertical;
+  /* overflow: -moz-scrollbars-vertical; */
 }
 
 .animated-background {
-  position: absolute;
-  height: 100%;
+  position: relative;
+  /* height: 100%; */
   width: 100%;
   background: #020529;
-  /* overflow: scroll; */
-  /* z-index: 1; */
+  overflow: hidden;
+  z-index: 1;
 }
 
 .container-background {
   position: absolute;
+  text-align: center;
   background: white;
-  margin-right: 10px;
   text-align: center;
   top: 10%;
-  left: 10%;
-  right: 10%;
+  left: 5%;
+  right: 5%;
   bottom: 10%;
 }
-
+/* 
 .contact-logos-row {
   position: absolute;
   margin: 0;
   padding: 0;
   text-align: center;
   top: 20%;
-  /* display:inline-block; */
-}
+  /* display:inline-block; 
+} */
 
 .img-style {
   width: 40px;

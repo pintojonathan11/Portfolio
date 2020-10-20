@@ -7,7 +7,7 @@ import ParticleAnimation from "../Main/ParticleAnimation";
 
 function Skills() {
   return (
-    <div id="skills" className="main">
+    <div id="skills">
       <div>
         <div className="animated-background">
           <Container fluid className="transparent-background">

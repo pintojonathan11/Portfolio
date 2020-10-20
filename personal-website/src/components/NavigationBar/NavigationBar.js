@@ -101,7 +101,16 @@ function NavigationBar() {
                   to=""
                 >
                   <MDBIcon icon="desktop" className="mr-1" />
-                  Projects
+                  <Link
+                    activeClass=""
+                    to="projects"
+                    spy={true}
+                    smooth={true}
+                    // offset={0}
+                    duration={1000}
+                  >
+                    Projects
+                  </Link>
                 </MDBNavLink>
               </MDBNavItem>
             </MDBNavbarNav>

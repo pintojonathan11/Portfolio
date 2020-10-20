@@ -21,123 +21,131 @@ class SkillTable extends Component {
           "80"
         ),
         new SkillInfo(
-          "skills_logo/java_logo.png",
+          "skills_logo/python_logo.png",
           "Python",
           "Backend",
           "1 Year",
           "45"
         ),
         new SkillInfo(
-          "skills_logo/java_logo.png",
+          "skills_logo/html_logo.png",
           "HTML",
           "Frontend",
-          "1.5 Years",
-          "35"
+          "2 Years",
+          "40"
         ),
         new SkillInfo(
-          "skills_logo/java_logo.png",
+          "skills_logo/css_logo.svg",
           "CSS",
           "Frontend",
-          "1.5 Years",
-          "25"
+          "2 Years",
+          "40"
         ),
         new SkillInfo(
-          "skills_logo/java_logo.png",
+          "skills_logo/js_logo.png",
           "Javascript",
           "Frontend",
           "2 Years",
           "45"
         ),
         new SkillInfo(
-          "skills_logo/java_logo.png",
+          "skills_logo/react_logo.png",
           "React",
           "Frontend",
           "1 Year",
           "40"
         ),
         new SkillInfo(
-          "skills_logo/java_logo.png",
+          "skills_logo/angular_logo.png",
           "Angular",
           "Frontend",
-          "Half A Year",
+          "1 Year",
           "25"
         ),
         new SkillInfo(
-          "skills_logo/java_logo.png",
-          "Express",
+          "skills_logo/node_logo.png",
+          "Node/Express",
           "Backend",
           "1 Year",
           "45"
         ),
         new SkillInfo(
-          "skills_logo/java_logo.png",
+          "skills_logo/git_logo.png",
           "Git",
           "Tool",
           "4 Years",
           "50"
         ),
         new SkillInfo(
-          "skills_logo/java_logo.png",
+          "skills_logo/linux_logo.png",
           "Unix/Linux",
           "Tool",
           "3 Years",
           "65"
         ),
         new SkillInfo(
-          "skills_logo/java_logo.png",
+          "skills_logo/sql_logo.svg",
           "SQL",
           "Backend",
           "1 Year",
           "40"
         ),
+        new SkillInfo("skills_logo/c_logo.png", "C", "Backend", "1 Year", "40"),
         new SkillInfo(
-          "skills_logo/java_logo.png",
-          "C",
-          "Backend",
-          "1 Year",
-          "40"
-        ),
-        new SkillInfo(
-          "skills_logo/java_logo.png",
+          "skills_logo/android_logo.png",
           "Android App Development",
           "Frontend",
           "2 Years",
           "50"
         ),
         new SkillInfo(
-          "skills_logo/java_logo.png",
+          "skills_logo/flutter_logo.png",
           "Flutter",
           "Frontend",
           "1 Year",
           "35"
         ),
+        // new SkillInfo(
+        //   "skills_logo/octave_logo.png",
+        //   "Octave",
+        //   "Machine Learning",
+        //   "1 Year",
+        //   "20"
+        // ),
         new SkillInfo(
-          "skills_logo/java_logo.png",
-          "Octave",
-          "Machine Learning",
-          "Half A Year",
-          "20"
-        ),
-        new SkillInfo(
-          "skills_logo/java_logo.png",
+          "skills_logo/tensorflow_logo.png",
           "TensorFlow",
           "Machine Learning",
-          "Half A Year",
+          "1 Year",
           "30"
         ),
         new SkillInfo(
-          "skills_logo/java_logo.png",
+          "skills_logo/aws_logo.svg",
           "AWS",
           "Cloud",
           "1 Year",
           "40"
         ),
         new SkillInfo(
-          "skills_logo/java_logo.png",
+          "skills_logo/firebase_logo.png",
           "Firebase",
           "Cloud",
-          "Half A Year",
-          "25"
+          "1 Year",
+          "35"
+        ),
+        new SkillInfo(
+          "skills_logo/csharp_logo.png",
+          "C#",
+          "Backend",
+          "1 year",
+          "40"
+        ),
+        new SkillInfo(
+          "skills_logo/unity_logo.png",
+          "Unity",
+          "Game Development",
+          "1 Year",
+          "40"
         )
       ]
     };
@@ -180,7 +188,7 @@ class SkillTable extends Component {
 
   sortListBySkill(isAsc) {
     return this.state.listOfSkills.sort(function(a, b) {
-      if (isAsc) {
+      if (!isAsc) {
         return a.skill.toUpperCase() > b.skill.toUpperCase() ? -1 : 1;
       } else {
         return a.skill.toUpperCase() < b.skill.toUpperCase() ? -1 : 1;
@@ -203,7 +211,7 @@ class SkillTable extends Component {
 
   sortListByType(isAsc) {
     return this.state.listOfSkills.sort(function(a, b) {
-      if (isAsc) {
+      if (!isAsc) {
         if (a.type.toUpperCase() > b.type.toUpperCase()) {
           return -1;
         } else if (a.type.toUpperCase() < b.type.toUpperCase()) {

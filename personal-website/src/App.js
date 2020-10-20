@@ -5,9 +5,9 @@ import Main from "./components/Main/Main";
 import About from "./components/About/About";
 import Experience from "./components/Experience/Experience";
 import NavigationBar from "./components/NavigationBar/NavigationBar";
-import ParticleAnimation from "./components/Main/ParticleAnimation";
 import Skills from "./components/Skills/Skills";
 import Projects from "./components/Projects/Projects";
+import Contact from "./components/Contact/Contact";
 function App() {
   return (
     <div className="App">
@@ -17,6 +17,7 @@ function App() {
       <Experience></Experience>
       <Skills></Skills>
       <Projects></Projects>
+      <Contact></Contact>
     </div>
   );
 }

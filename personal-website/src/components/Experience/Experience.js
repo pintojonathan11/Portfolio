@@ -93,7 +93,7 @@ function Experience() {
               image="aresty_logo.png"
               company="Aresty Research Program"
               position="Research Assistant"
-              date="(Septembeer 2020 - May 2021)"
+              date="(September 2020 - May 2021)"
               description="Explored different evaluation measures that evaluate social distancing and developed a framework in Unity"
               languagesUsed={arestyLanguagesUsed}
               extraInfo={arestyExtraInfo}

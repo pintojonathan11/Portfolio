@@ -1,0 +1,62 @@
+.projects-head-title {
+  color: #1a2952;
+  font-size: 60px;
+}
+
+.project-img-size {
+  width: 50px;
+  height: 30px;
+}
+
+.project-hover-title {
+  font-size: 32px;
+}
+
+.project-description {
+  opacity: 0.8;
+}
+
+.rotate {
+  transform: rotate(180deg);
+  transform-origin: center center;
+  margin-bottom: 7px;
+}
+
+.rotate-back {
+  transform: rotate(0deg);
+  transform-origin: center center;
+}
+
+@media only screen and (max-width: 324px) {
+  .project-hover-title {
+    font-size: 18px;
+  }
+}
+
+/* Extra Small */
+@media (min-width: 325px) and (max-width: 768px) {
+  .project-hover-title {
+    font-size: 24px;
+  }
+}
+
+/* Small */
+@media (min-width: 768px) and (max-width: 991px) {
+  .project-hover-title {
+    font-size: 40px;
+  }
+}
+
+/* Medium */
+@media (min-width: 992px) and (max-width: 1199px) {
+  .project-hover-title {
+    font-size: 26px;
+  }
+}
+
+/* Large */
+@media screen and (min-width: 1200px) {
+  .project-hover-title {
+    font-size: 30px;
+  }
+}
