@@ -106,7 +106,7 @@ function NavigationBar() {
                     to="projects"
                     spy={true}
                     smooth={true}
-                    // offset={0}
+                    offset={-60}
                     duration={1000}
                   >
                     Projects

@@ -1,15 +1,61 @@
-.contact-logos-row {
-  position: absolute;
+.contact-screen {
+  /* height: 25vh; */
+  background-color: #1a2952;
+}
+
+.final-contact-logos-row {
   text-align: center;
-  top: 20%;
+  /* top: 20%; */
   /* display:inline-block; */
 }
 
-.contact-logos {
-  /* width: 50px;
-      height: 50px; */
-  width: 5.5vw;
-  height: 5.5vw;
-  margin-top: 40px;
+.final-contact-logos {
+  width: 50px;
+  height: 50px;
+  /* width: 5.5vw;
+  height: 5.5vw; */
   /* text-align: center; */
+}
+
+.small-name {
+  color: whitesmoke;
+}
+
+@media only screen and (max-width: 324px) {
+  .final-contact-logos {
+    width: 30px;
+    height: 30px;
+  }
+}
+
+/* Extra Small */
+@media (min-width: 325px) and (max-width: 768px) {
+  .final-contact-logos {
+    width: 35px;
+    height: 35px;
+  }
+}
+
+/* Small */
+@media (min-width: 768px) and (max-width: 991px) {
+  .final-contact-logos {
+    width: 40px;
+    height: 40px;
+  }
+}
+
+/* Medium */
+@media (min-width: 992px) and (max-width: 1199px) {
+  .final-contact-logos {
+    width: 45px;
+    height: 45px;
+  }
+}
+
+/* Large */
+@media screen and (min-width: 1200px) {
+  .final-contact-logos {
+    width: 50px;
+    height: 50px;
+  }
 }
