@@ -1,3 +1,3 @@
 Personal Portfolio: https://jonathanpinto.me/
 
-Created using React
+Created using React.
